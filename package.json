@@ -49,7 +49,7 @@
         "webpack-merge": "^4.2.1"
     },
     "scripts": {
-        "webpack": "webpack",
+        "webpack": "webpack --mode production",
         "start": "webpack-dev-server --mode development --inline --progress --config ./webpack.dev.js --open",
         "test": "jest",
         "test:coverage": "yarn test -- --coverage",
