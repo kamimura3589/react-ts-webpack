@@ -8,6 +8,9 @@
         "react-dom": "^16.8.3"
     },
     "devDependencies": {
+        "@storybook/addon-actions": "^4.1.13",
+        "@storybook/addon-info": "^4.1.13",
+        "@storybook/addon-knobs": "^4.1.13",
         "@storybook/react": "^4.1.13",
         "@types/enzyme": "^3.9.0",
         "@types/enzyme-adapter-react-16": "^1.0.5",
@@ -36,6 +39,7 @@
         "react-hot-loader": "^4.7.1",
         "react-test-renderer": "^16.8.3",
         "source-map-loader": "^0.2.4",
+        "storybook-addon-jsx": "^6.0.0",
         "ts-jest": "^24.0.0",
         "typescript": "^3.3.3333",
         "webpack": "^4.29.6",
