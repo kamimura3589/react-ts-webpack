@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "global-require": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-unresoved": "off",
+    "@typescript-eslint/no-var-requires": "off"
+  }
+}
