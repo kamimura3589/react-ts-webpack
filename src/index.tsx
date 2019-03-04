@@ -1,16 +1,19 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { reducer } from './reducers';
-import App from './App';
+import Root from './routes';
 
 const store = createStore(reducer, {}, composeWithDevTools());
 
 ReactDOM.render(
     <Provider store={store}>
-        <App testMessage="Hello ts-react-jest app" />
+        <BrowserRouter>
+            <Root />
+        </BrowserRouter>
     </Provider>,
     document.getElementById('root'),
 );

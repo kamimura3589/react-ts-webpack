@@ -6,7 +6,7 @@ export interface InterfaceAppProps {
 
 class App extends React.Component<InterfaceAppProps, undefined> {
     render() {
-        return <div>{this.props.testMessage}</div>;
+        return <div>App{this.props.testMessage}</div>;
     }
 }
 export default App;
